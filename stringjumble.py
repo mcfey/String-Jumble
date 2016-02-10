@@ -28,4 +28,4 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 string1 = list(input("Please enter a string of text (the bigger the better): "))
 n = len(string1)
-string2 = [ n-x for x in string1]
+string2 = [ string(x-n) for x in string1]
