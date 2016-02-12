@@ -26,6 +26,12 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-string1 = list(input("Please enter a string of text (the bigger the better): "))
-n = len(string1)
-string2 = [ string1(x-n) for x in string1]
+text = input("Please enter a string of text (the bigger the better): ")
+n = len(text)
+
+for x in range(-1,-n-1, -1):
+    print(text[x], end="")
+
+string= list(text)
+print(string)
+
