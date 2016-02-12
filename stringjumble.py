@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Mary Feyrer
+Credit: Tess Snyder
 
 Assignment:
 
@@ -32,6 +32,9 @@ n = len(text)
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
 
-string= list(text)
-print(string)
+
+text2=list(text)
+print(text2, "\n")
+t3= str(text2)
+print(t3)
 
