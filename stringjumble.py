@@ -32,9 +32,6 @@ n = len(text)
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
 
-
-text2=list(text)
-print(text2, "\n")
-t3= str(text2)
-print(t3)
+print( )
+print("hi")
 
