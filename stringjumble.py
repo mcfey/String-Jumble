@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Mary Feyrer
-Credit: Tess Snyder, Dan Wilson
+Credit: Tess Snyder, Daniel Wilson
 
 Assignment:
 
