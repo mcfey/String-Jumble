@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Mary Feyrer
-Credit: Tess Snyder
+Credit: Tess Snyder, Dan Wilson
 
 Assignment:
 
@@ -29,9 +29,9 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text = input("Please enter a string of text (the bigger the better): ")
 n = len(text)
 
+
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
 
-print( )
-print("hi")
+
 
