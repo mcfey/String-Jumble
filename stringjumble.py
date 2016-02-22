@@ -33,15 +33,13 @@ print("\n")
 
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
-    
-print("\n") 
 
 words=text.split(' ')
-list2=list(reversed(words))
+list2=reversed(words)
 for x in list2:
     print(x, end=" ")
 
-print("\n") 
+
 
 
 
