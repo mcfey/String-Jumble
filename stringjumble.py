@@ -30,10 +30,16 @@ text = input("Please enter a string of text (the bigger the better): ")
 n = len(text)
 list=list(text)
 
+
+
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
 
 words=text.split(' ')
-print(words)
+list2=list(reversed(words))
+for x in list2:
+    print(x, end=" ")
+
+for x in 
 
 
