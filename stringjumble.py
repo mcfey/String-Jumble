@@ -49,7 +49,7 @@ for x in words:
         w=str(x[len(x)-g-1])
         print("{0}".format(w),end="")
         g=g+1
-    print(" ", end=" ")
+    print(" ", end="")
 
 
 
