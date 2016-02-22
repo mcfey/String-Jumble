@@ -47,9 +47,9 @@ for x in words:
     g=0
     while g < n:
         w=str(x[n-g-1])
-        print("{0}".format(w), end" ")
+        print("{0}".format(w),end=" ")
         g=g+1
-    print(" ", end" ")
+    print(" ", end=" ")
 
 
 
