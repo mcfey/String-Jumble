@@ -44,6 +44,6 @@ for x in list2:
 
 print("\n") 
 
-for x in 
+
 
 
