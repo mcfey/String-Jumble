@@ -29,7 +29,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text = input("Please enter a string of text (the bigger the better): ")
 n = len(text)
 
-print("\n") 
+print(" ") 
 
 for x in range(-1,-n-1, -1):
     print(text[x], end="")
@@ -41,7 +41,7 @@ list2=reversed(words)
 for x in list2:
     print(x, end=" ")
     
-print("\n") 
+print(" ") 
 
 for x in words:
     g=0
