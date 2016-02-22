@@ -28,7 +28,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 text = input("Please enter a string of text (the bigger the better): ")
 n = len(text)
-list=list(text)
+list1=list(text)
 
 print("\n") 
 
