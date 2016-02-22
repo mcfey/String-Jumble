@@ -45,7 +45,7 @@ print("\n")
 
 for x in words:
     g=0
-    while g < n:
+    while g < len(words):
         w=str(x[len(x)-g-1])
         print("{0}".format(w),end=" ")
         g=g+1
