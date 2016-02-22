@@ -40,6 +40,14 @@ words=text.split(' ')
 list2=reversed(words)
 for x in list2:
     print(x, end=" ")
+    
+print("\n") 
+
+for x in words:
+    g=0
+    while g < n:
+        w=str(x[n-g-1])
+        print("}
 
 
 
